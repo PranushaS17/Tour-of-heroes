@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dog-API';
+  title = 'Tour of Heroes';
+}
+export interface Hero {
+  id: number;
+  name: string;
 }
